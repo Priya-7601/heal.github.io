@@ -1,24 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <title> PAYMENT GATEWAY </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
+    <head>
+    <title>Donate-Heal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
+
 <body>
-
-<ul> 
-         <li><b><a class="active" href="index.html">Home</a></b></li>
-	 <li><b><a class="active" href="about.html">About</a></b></li>
-</ul>
-
-<div class="container"><i class="bars" style="color: #fff;font-size: 350%;">
-      <div class="paymentbox">
-             <h2 style="font-size:100%;">"Giving is the greatest act of grace"</h2>
-             
-                   <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GMiJRccxwOnPpX"></script> </form>
-      </div>
+    <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="heal.jpg" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </div>
-</body>
-</html>
+<div class="hero-container">
+    <img src="payment.jpg">
+    <div class="hero-container-text">
+        <h2>"Giving is the greatest act of grace"</h2>
+        <form id="form"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GMiJRccxwOnPpX"></script> </form>
+</div>
+</div>
+
+<footer id="footer2" class="primary-footer container group">
+    
+    <nav class="nav">
+      <ul>
+          
+         <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+         
+         <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+      </ul>
+    </nav>
+   
+   </footer>
+   </body>
+   </html>
